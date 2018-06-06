@@ -1,0 +1,90 @@
+canvas{
+	border: 2px solid red;
+	margin: 0;
+	background-color: black;
+}
+
+body,html{
+	margin: 0;
+	width: 100%;
+}
+
+body{
+	background: #7F00FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#newGameButton{
+	border: none;
+	outline: none;
+	font-size: 25px;
+	margin-left: 30%;
+	background-color: #058D18;
+	color: white;
+	padding: 10px;
+	border-radius: 30px;
+	margin-top: 15px;
+
+}
+
+#newGameButton:hover{
+	margin-top: 13px;
+	border: 2px solid silver;
+}
+
+#topBar{
+	margin-bottom: 0px;
+	line-height: 70px;
+}
+
+#scoreDiv{
+	font-size: 25px;
+	float: left;
+	background-color: #C0C0C0;
+	width: 10%;
+	border: 2px solid black;
+	margin-left: 1%;
+	padding-left: 5px;
+	/*padding-right: 15px;*/
+}
+
+#instructButton{
+	font-size: 25px;
+	margin-left: 25%;
+
+	background-color: #CF2C18 ;
+	color: white;
+	border: none;
+	outline: none;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.hidden{
+	display: none;
+}
+
+ul{
+	font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    list-style: none;
+}
+
+#closeInstructButton{
+	margin: 0 auto;
+	outline: none;
+	border: none;
+	background-color: red;
+	color: white;
+	font-size: 30px;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+#instructDiv{
+	text-align: center;
+	  font-size: 14px;
+
+}
